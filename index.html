@@ -14,8 +14,14 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <script language="”JavaScript”">
-
-      var frmvalidator = new Validator('contactform'); frmvalidator.addValidation('name','req','Please provide your name'); frmvalidator.addValidation('email','req','Please provide your email'); frmvalidator.addValidation('email','email', 'Please enter a valid email address');
+      var frmvalidator = new Validator("contactform");
+      frmvalidator.addValidation("name", "req", "Please provide your name");
+      frmvalidator.addValidation("email", "req", "Please provide your email");
+      frmvalidator.addValidation(
+        "email",
+        "email",
+        "Please enter a valid email address"
+      );
     </script>
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
@@ -85,7 +91,38 @@
           <h2 class="major">Work</h2>
 
           <h3 style="text-decoration: underline; font-weight: bolder">
-            <i>Latest Project</i>
+            <i>Current Project</i>
+          </h3>
+
+          <h3>Ohio Child Care Resource and Refferal Association</h3>
+          <h6>Full Stack</h6>
+          <span class="image main"
+            ><img src="images/OCCRRA_ss.PNG" alt="OCCRRA_ss"
+          /></span>
+          <p>
+            <a href="https://occrra.org">This project</a> needs a completely new
+            digital financial structure.
+
+            <br /><br />I was brought on to implement a strategy with my
+            expertise with Stripe integration, so that the client could leave
+            their current payment processor, and replace it with a processor
+            that was more modern and user friendly. I told them that wouldn't be
+            necessary and when I explained Stripe's potential, I was tasked with
+            not just fixing their payment system, but to build their own custom
+            Business Intelligence application.
+
+            <br /><br />In addition to traditional eCommerce and B.I. needs,
+            OCCRRA disburses Federal and State level funding for early childcare
+            professionals, and at at time of being hired, the CARES Act and the
+            Infrastructure Bill were passed, I have to design the system to not
+            only be automated as much as possible, but also handle the flow of
+            ~$2B over the next 3-4 years, on top of the payment processor that
+            is already handling the volume and traffic from every childcare
+            professional in the State of Ohio.
+          </p>
+
+          <h3 style="text-decoration: underline; font-weight: bolder">
+            <i>Current Projects</i>
           </h3>
 
           <h3>Evidenced Nutrition</h3>
@@ -94,18 +131,17 @@
             ><img src="images/evidenced_nutrition.JPG" alt=""
           /></span>
           <p>
-            <a href=''>This is complete website overhaul</a> a for the client's consultation
-            business, which currently has two websites on Wordpress and needs a
-            completely streamlined platform. Similar to the other current
-            project, this will not use any CMS or eCommerce software and will
-            focus on direct integration for the client. This site is currently
-            only in the form of prototypes at this time. Please contact me for
-            code access and features of this project.
+            <a href="https://evidencednutrition.com"
+              >This is complete website overhaul</a
+            >
+            a for the client's consultation business, which currently has two
+            websites on Wordpress and needs a completely streamlined platform.
+            Similar to the other current project, this will not use any CMS or
+            eCommerce software and will focus on direct integration for the
+            client. This site is currently only in the form of prototypes at
+            this time. Please contact me for code access and features of this
+            project.
           </p>
-
-          <h3 style="text-decoration: underline; font-weight: bolder">
-            <i>Current Projects</i>
-          </h3>
 
           <h3>Wolf's Ridge Brewery</h3>
           <h6>Full Stack</h6>
@@ -262,10 +298,9 @@
           <h2 class="major">Contact</h2>
           <h3>Interested in Working With Me?</h3>
           <p>
-            Please send an email to mjbergeron18@gmail.com, and I will get
-            back to you as soon as possible!
+            Please send an email to mjbergeron18@gmail.com, and I will get back
+            to you as soon as possible!
           </p>
-		  
         </article>
 
         <!-- Elements -->
